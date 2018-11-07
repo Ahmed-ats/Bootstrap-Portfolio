@@ -9,7 +9,11 @@ body {
   * {
     box-sizing: border-box;
   }
-  
+  #img-ind{
+    width: 200px;
+    float: left;
+    margin: 0 20px;  
+  }
 .container {
     width: 100%;
     max-width: 960px;
@@ -37,15 +41,16 @@ body {
     border-bottom: 2px solid #cccccc;
   }
  
-  ul li a {
+  .nav-item {
     
     border-left: solid 1px  #efefef;
    padding-left: 15px;
  
   }
-  /* li a:first-child {
+  .nav-item:first-of-type { 
     border-left: 0 none;
-  } */
+  } 
+  
   .header{
   padding-bottom: 10px;
   font-size: 30px;

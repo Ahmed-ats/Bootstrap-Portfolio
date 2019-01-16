@@ -9,11 +9,11 @@ body {
   * {
     box-sizing: border-box;
   }
-  #img-ind{
+  /* #img-ind{
     width: 200px;
     float: left;
     margin: 0 20px;  
-  }
+  } */
 .container {
     width: 100%;
     max-width: 960px;
@@ -86,21 +86,27 @@ body {
     padding-top: 20px;
   }
     /* protfolio */
-  .thumbnail {
+  /* .thumbnail {
     position: relative;
     float: left;
     margin-bottom: 20px;
     width: 350px;
     margin-right: 5px;
-}
+} */
 
 .caption {
-    position: absolute;
-    top: 85%;
-    left: 0;
-    width: 100%;
+    /* position: absolute; */
+    /* top: 85%;
+    left: 0; */
+    /* width: 100%; */
     background: #4aaaa5;
     color: white;
+}
+
+#my-pic{
+	max-width: 200px;
+	float: left;
+	margin-right: 30px;
 }
   
     
